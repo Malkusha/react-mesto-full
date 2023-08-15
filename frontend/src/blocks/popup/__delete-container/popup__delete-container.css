@@ -1,0 +1,9 @@
+.popup__delete-container {
+  width: 83%;
+}
+
+@media screen and (max-width: 460px) {
+  .popup__delete-container {
+    width: 85%;
+  }
+}

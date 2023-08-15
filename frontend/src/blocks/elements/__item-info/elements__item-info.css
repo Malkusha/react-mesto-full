@@ -1,0 +1,8 @@
+.elements__item-info {
+  padding: 25px 15px 20px 21px;
+  border-radius: 0 0 10px 10px;
+  display: grid;
+  grid-template-columns: auto 28px;
+  background-color: #fff;
+  color: #000;
+}

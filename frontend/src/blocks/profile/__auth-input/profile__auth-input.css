@@ -1,0 +1,14 @@
+.profile__auth-input {
+  margin-bottom: 30px;
+  min-height: 27px;
+  background-color: #000;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  color: #ccc;
+  
+  
+}
+
+.profile__auth-input:nth-last-child(2) {
+  margin-bottom: 216px;
+}
