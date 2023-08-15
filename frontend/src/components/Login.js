@@ -9,6 +9,7 @@ function Login({handleLogin}) {
   function handleAuthorize({email, password}) {
     auth.authorize(email, password)
       .then((data) => {
+          console.log(data);
           localStorage.setItem("token", data.token);
           navigate("/", {replace: true});
           handleLogin(email);

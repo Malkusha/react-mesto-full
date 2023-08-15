@@ -1,4 +1,4 @@
-export const BASE_URL = 'http://api.pashkusha.nomoreparties.co';
+export const BASE_URL = 'https://api.pashkusha.nomoreparties.co';
 
 export function register(email, password) {
   return fetch(`${BASE_URL}/signup`, {

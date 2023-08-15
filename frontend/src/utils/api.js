@@ -111,7 +111,7 @@ class Api {
 }
 
 const api = new Api(
-  `http://api.pashkusha.nomoreparties.co`,
+  `https://api.pashkusha.nomoreparties.co`,
   {
     'Content-Type': 'application/json'
   }

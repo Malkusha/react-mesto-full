@@ -10,14 +10,14 @@ const { requestLogger, errorLogger } = require('./middlewares/logger');
 const router = require('./routes/index');
 const { errorHandler } = require('./errors/index');
 
-const { PORT = 3001, DB_URL = 'mongodb://127.0.0.1:27017/mestodb' } = process.env;
+const { PORT = 3001, DB_URL = 'mongodb://localhost:27017/mestodb' } = process.env;
 const app = express();
 
 app.use(cors({
   origin: [
     'http://localhost:3000',
-    'http://api.pashkusha.nomoreparties.co',
-    'https://api.pashkusha.nomoreparties.co'
+    'http://pashkusha.nomoreparties.co',
+    'https://pashkusha.nomoreparties.co'
 ]
 }));
 app.use(bodyParser.json());
