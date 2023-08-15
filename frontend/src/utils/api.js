@@ -111,7 +111,7 @@ class Api {
 }
 
 const api = new Api(
-  `http://localhost:3001`,
+  `http://api.pashkusha.nomoreparties.co`,
   {
     'Content-Type': 'application/json'
   }
